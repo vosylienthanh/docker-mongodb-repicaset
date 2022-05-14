@@ -2,7 +2,7 @@
 
 # Description
 - This repo implement `Dockerfile` to build `mongo replicaset image` on docker.
-- You can find the docker image run for `arm64` device at https://hub.docker.com/repository/docker/vosylienthanh/mongo-local-replicaset-arm64
+- You can find the docker image run for `arm64` device at https://hub.docker.com/r/vosylienthanh/mongo-local-replicaset-arm64
 - For other devices, you can build image by yourself
 
 # How to use
