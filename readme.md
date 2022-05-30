@@ -7,14 +7,29 @@
 
 # How to use
 ## Build command
+
+### Build for arm64 arch
 ```BASH
 docker build -t vosylienthanh/mongo-local-replicaset-arm64:0.0.1 -t vosylienthanh/mongo-local-replicaset-arm64:lastest .
 ```
 
+### Build for x64_86 arch
+```BASH
+docker build -t vosylienthanh/mongo-local-replicaset-intel:0.0.1 -t vosylienthanh/mongo-local-replicaset-intel:lastest .
+```
+
 ## Push to docker hub command
+
+### Push mongo-local-replicaset-arm64
 ```BASH
 docker push vosylienthanh/mongo-local-replicaset-arm64:0.0.1
 docker push vosylienthanh/mongo-local-replicaset-arm64:lastest
+```
+
+### Push mongo-local-replicaset-intel
+```BASH
+docker push vosylienthanh/mongo-local-replicaset-intel:0.0.1
+docker push vosylienthanh/mongo-local-replicaset-intel:lastest
 ```
 
 ## Dockercompose file sample
